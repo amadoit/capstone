@@ -2,10 +2,10 @@
   "name": "capstone",
   "version": "1.0.0",
   "description": "",
-  "main": "controller.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "test",
-    "start": "node project_planning/server/controller.js"
+    "start": "node server/server.js"
   },
   "author": "amadoit",
   "license": "ISC",
