@@ -10,11 +10,11 @@ app.use(express.json());
 
 const { getHome, getTeamInfo, getHighlights, getHistory, getJoin } = require('./main')
 
-app.get('/', getTeamInfo)
-app.get('/', getHighlights)
-app.get('/', getHistory)
+app.get('/team', getTeamInfo)
+app.get('/highlights', getHighlights)
+app.get('/history', getHistory)
 app.get('/', getHome)
-app.get('/', getJoin)
+app.get('/join', getJoin)
 
 
 
