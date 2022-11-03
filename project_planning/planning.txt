@@ -1,0 +1,19 @@
+1). Determine project and scope
+    - Golazo generator
+    - chune generator
+    - kit generator
+    - dispensary finder
+    - 
+2). Search for available APIs
+3). Decide on 4 features I want to exhibit?
+4). Make 2 Figma wireframes to showcase interactivity
+5). Steps:
+    - First focus on getting the elements on the screen.
+
+    - Next focus on getting the elements to listen to user input (frontend eventlisteners), and collecting any data you need from the user.
+
+    - Then setup the server, and start sending your data to the backend. Play around with this step in the process, and don't overthink it. If you have your data ready and setup in the frontend, you have nothing to worry about.
+
+    - Once that's all done, send it back to the frontend, and worry about displaying it as the very last step in the process.
+
+    - Console logs are your best friend! Console log every step of the way.
