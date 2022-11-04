@@ -1,0 +1,28 @@
+#background_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.25);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    height: 50vh;
+  }
+  .header {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+  }
+  .card-title {
+    font-size: 50px;
+  }
+  .card-text, .p-2 {
+    font-size: 25px;
+  }
+ 

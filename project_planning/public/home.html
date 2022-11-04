@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css">
+    <link rel="stylesheet" href="idea.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -13,27 +13,27 @@
         <div class="wrapper">
         <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
+              <a class="navbar-brand" href="home.html">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse show" id="navbarDark">
                 <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/team">Team Information</a>
+                    <a class="nav-link active" aria-current="page" href="team_information.html">Team Information</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/highlights">Highlights</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/history">History</a>
+                    <a class="nav-link active" aria-current="page" href="highlights.html">Highlights</a>
                   </li>
                 </ul>
                 <form class="d-flex">
                   <label for="formControlInput" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
-                  <button class="btn btn-outline-light" type="submit">Join The Pride</button>
+                  <!-- <a href="join.html">
+                  <button class="btn btn-outline-light" type="submit">Joi The Pride</button></a> -->
                 </form>
+                <a href="join.html">
+                  <button class="btn btn-outline-light" type="submit">Join The Pride</button></a>
               </div>
             </div>
           </nav>
@@ -43,12 +43,12 @@
           <div class="card bg-light text-light">
             <img src="https://pbs.twimg.com/media/EkN5lsRVcAAgNso.jpg" class="card-img" alt="card-img-overlay">
             <div class="card-img-overlay">
-              <h5 class="card-title">Welcome to the Pride!</h5>
-              <p class="card-text">This site is your one stop shop for everything Chelsea FC - 'the only team in London with a European Cup'.</p>
-              <p class="card-text">We welcome new fans of all ages, whether you recognize that football (played with your feet) is the best sport on the planet or not, all are free to join!</p>
+              <h5 id="h5" class="card-title text-center">Welcome to the Pride!</h5>
+              <p class="card-text text-center">This site is your one stop shop for everything Chelsea FC - 'the only team in London with a European Cup'.</p>
+              <p class="card-text text-center">We welcome new fans of all ages, whether you recognize that football (played with your feet) is the best sport on the planet or not, all are free to join!</p>
                
          
-              <div class="d-flex justify-content-center bd-highlight mb-2">
+              <div class="d-flex justify-content-center bd-highlight mb-2 fixed-bottom">
                 <div class="p-2 bd-highlight">2012 - UEFA Champions League Winners</div>
                 <div class="p-2 bd-highlight">2013 - UEFA Europa League Winners</div>
                 <div class="p-2 bd-highlight">2019 - UEFA Europa League Winners</div>
@@ -57,9 +57,6 @@
             </div>
           </div>
         </div>
-        
-     
-     <div class="Join" id="Membership">
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
